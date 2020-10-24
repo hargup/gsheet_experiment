@@ -1,2 +1,3 @@
 Flask==1.1.2
 -e git+https://github.com/burnash/gspread@52eef450910046a4fdac641aed456dbe986defe3#egg=gspread
+gunicorn==20.0.4

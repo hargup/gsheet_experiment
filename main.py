@@ -25,7 +25,11 @@ assert Sheet
 
 # ---------- Webserver --------------------
 
-App = Flask(__name__)
-@App.route('/')
+app = Flask(__name__)
+@app.route('/')
 def counter():
     return increment_count(Sheet, count_cell)
+
+
+if __name__ == '__main__':
+    app.run()
