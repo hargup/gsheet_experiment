@@ -13,6 +13,12 @@ Fire up the given route and see the counter increasing in the google spreadsheet
 ```
 pip install -e git+https://github.com/burnash/gspread#master#egg=gspread
 ```
+
+Install flask and other dependencies
+```
+pip install -r requirements.txt
+```
+
 We require the lastest commits to read credentials from Dictionary. As of now (2020-10-24), this commit isn't part of the last release. See https://github.com/burnash/gspread/pull/785
 
 - To get Google service account creds, follow https://gspread.readthedocs.io/en/latest/oauth2.html#for-bots-using-service-account
